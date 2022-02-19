@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+h1{
+    margin: 20px;
+}
+.wrapper {
+    max-width: 1400px;
+}
+.winner{
+    position: absolute;
+    background-color: rgb(163, 185, 133);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.winner button{
+    width: 90%;
+    margin: 20px;
+    height: 30px;
+}
+.container {
+}
+.counter {
+    display: grid;
+    grid-template: auto/1fr 1fr;
+    grid-template-rows: 300px 1fr;
+    grid-template-areas: 'couP couC' 'ply com';
+		&__player {
+		}
+
+		&__player-title {
+		}
+
+        &__player-number{
+            font-size: 1.3rem;
+            border-bottom: 2px solid darkblue;
+            margin-right: 30px;
+        }
+		&__player-list {
+		}
+
+		&__computer {
+		}
+
+		&__computer-title {
+		}
+
+        &__computer-block{
+            display: flex;
+        }
+		&__computer-list {
+            background-color: rgb(187, 204, 252);
+            margin-right: 20px;
+		}
+		&__computer-list2 {
+            background-color: rgb(245, 215, 215);
+		}
+}
+.titles {
+}
+.list-ul {
+    list-style: none;
+}
+.player {
+
+		&__title {
+            margin-bottom: 20px;
+		}
+
+		&__inner {
+            height: 30px;
+            display: flex;
+            align-items: center;
+		}
+
+		&__title-input {
+            font-size: 1.1rem;
+            margin-right: 20px;
+            padding: 5px;
+            width: 70px;
+            appearance: none;
+		}
+
+		&__title-button {
+            height: 100%;
+            padding: 5px;
+		}
+}
+
+
+.none{
+    display: none;
+}
+

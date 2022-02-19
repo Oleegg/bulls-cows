@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.wrapper {
+  max-width: 1400px;
+}
+
+.winner {
+  position: absolute;
+  background-color: #a3b985;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.winner button {
+  width: 90%;
+  margin: 20px;
+  height: 30px;
+}
+
+.counter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: auto/1fr 1fr;
+  -ms-grid-rows: 300px 1fr;
+      grid-template-rows: 300px 1fr;
+      grid-template-areas: 'couP couC' 'ply com';
+}
+
+.counter__player-number {
+  font-size: 1.3rem;
+  border-bottom: 2px solid darkblue;
+  margin-right: 30px;
+}
+
+.counter__computer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.counter__computer-list {
+  background-color: #bbccfc;
+  margin-right: 20px;
+}
+
+.counter__computer-list2 {
+  background-color: #f5d7d7;
+}
+
+.list-ul {
+  list-style: none;
+}
+
+.player__title {
+  margin-bottom: 20px;
+}
+
+.player__inner {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.player__title-input {
+  font-size: 1.1rem;
+  margin-right: 20px;
+  padding: 5px;
+  width: 70px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.player__title-button {
+  height: 100%;
+  padding: 5px;
+}
+
+.none {
+  display: none;
+}
