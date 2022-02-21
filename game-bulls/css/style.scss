@@ -55,14 +55,22 @@ h1{
 		&__player-title {
 		}
 
+        &__player-block{
+            display: flex;
+        }
         &__player-number{
             font-size: 1.3rem;
             border-bottom: 2px solid darkblue;
             margin-right: 30px;
         }
 		&__player-list {
+            margin-right: 20px;
+            background-color: rgb(187, 204, 252);
 		}
 
+        &__player-list2{
+            background-color: rgb(245, 215, 215);
+        }
 		&__computer {
 		}
 
@@ -72,6 +80,7 @@ h1{
         &__computer-block{
             display: flex;
         }
+
 		&__computer-list {
             background-color: rgb(187, 204, 252);
             margin-right: 20px;

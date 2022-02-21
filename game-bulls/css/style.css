@@ -76,10 +76,25 @@ h1 {
       grid-template-areas: 'couP couC' 'ply com';
 }
 
+.counter__player-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .counter__player-number {
   font-size: 1.3rem;
   border-bottom: 2px solid darkblue;
   margin-right: 30px;
+}
+
+.counter__player-list {
+  margin-right: 20px;
+  background-color: #bbccfc;
+}
+
+.counter__player-list2 {
+  background-color: #f5d7d7;
 }
 
 .counter__computer-block {
